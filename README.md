@@ -9,9 +9,9 @@ Uses a keras/tensor flow package *Convolutional Neural Network*
 
 Is trained on 
 # Output
-The category that the 
+The category that the model decides the image belongs to
 
-$$ $$
+$$ 0 - 9 $$
 
 <div style="background: yellow; margin:20px; padding: 20px;">
     <h1 style="font-size:10vw">Conclusion:</h1>
