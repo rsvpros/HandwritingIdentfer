@@ -7,14 +7,9 @@ Inputs 256 x256 images of handwritten digits 0 - 9
 # Model
 Uses a keras/tensor flow package *Convolutional Neural Network*
 
-Is trained on 
+Is trained on the MNIST dataset of handwritten digits, and tested via 15 epochs (the model is trained on the data 15 times)
+
 # Output
-The category that the model decides the image belongs to
+The category that the model decides the image belongs to a numeral from: 0 - 9
 
-$$ 0 - 9 $$
-
-<div style="background: yellow; margin:20px; padding: 20px;">
-    <h1 style="font-size:10vw">Conclusion:</h1>
-    <p size="100">This model achieved an over </p>
-    <h2 style="font-size:5vw"><u> 98% </u> accuracy in classification of handwritten digits</h2>
-</div>
+This model achieved an over **98% accuracy in classification of handwritten digits**
